@@ -1,0 +1,35 @@
+{
+ "title": "人妻x人妻4R (KAAS engine, DISCOVERY 2004)",
+ "files": {
+  "script": "ww4r.id",
+  "exe": "ww4r.exe"
+ },
+ "encoding": "cp932",
+ "lead_xor": 1,
+ "region": [
+  269572,
+  1190192
+ ],
+ "min_chars": 2,
+ "line_break": "0000",
+ "page_break": [
+  "03000200",
+  "01000200"
+ ],
+ "target": {
+  "encoding": "gbk",
+  "lead_xor": 1,
+  "pad": "a0a1",
+  "fullwidth_ascii": true,
+  "force_even": true,
+  "fix": {
+   "♪": "～",
+   "・": "·"
+  }
+ },
+ "notes": [
+  "region is [0x41D04, 0x122930) -- text block starts right after the code area",
+  "0x41D04 holds the SJIS of the first menu line, usable as a fingerprint",
+  "pad must be A0 A1: 0x00 is the newline control code in this VM"
+ ]
+}

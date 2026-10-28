@@ -1,0 +1,18 @@
+# Normalise line endings across platforms.
+# Without this, a Windows clone re-writes every file and produces
+# "whole file changed" diffs on the first commit.
+* text=auto eol=lf
+
+# Windows batch files must keep CRLF or cmd.exe misparses them.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Shell scripts must stay LF.
+*.sh text eol=lf
+
+# Binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.id binary
+*.exe binary
