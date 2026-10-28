@@ -1,5 +1,10 @@
 # vn-reverse-engineering
 
+[![CI](https://github.com/jiujihunhewu/Translate-crack/actions/workflows/ci.yml/badge.svg)](https://github.com/jiujihunhewu/Translate-crack/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![No dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](#)
+
 逆向老式日文视觉小说（galgame）的二进制数据 —— **汉化补丁** + **攻略生成**，一套工具链通吃。
 
 A toolchain for reverse-engineering old Japanese visual novels: extract script text,
